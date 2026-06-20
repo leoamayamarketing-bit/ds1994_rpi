@@ -28,7 +28,7 @@ Makefile
 !Makefile
 
 # Compiled binaries (all variants)
-ds1994_app
+
 ds1994_app_debug
 basic_usage
 

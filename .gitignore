@@ -1,0 +1,72 @@
+# ============================================================
+# Build artifacts
+# ============================================================
+build/
+cmake-build-*/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.app
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+*.cmake
+!CMakeLists.txt
+
+# Make generated
+Makefile
+!Makefile
+
+# Compiled binaries (all variants)
+ds1994_app
+ds1994_app_debug
+basic_usage
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.code-workspace
+.project
+.classpath
+.settings/
+
+# ============================================================
+# Logs and data
+# ============================================================
+*.log
+*.dat
+*.bin
+*.dump
+
+# ============================================================
+# Environment
+# ============================================================
+.env
+.env.local
+*.env
+
+# ============================================================
+# Python (for any scripts)
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/

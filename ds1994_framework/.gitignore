@@ -1,0 +1,38 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled binaries
+bin/
+obj/
+*.o
+*.obj
+*.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+!CMakeLists.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log files
+*.log
+
+# Compiled scripts
+scripts/compiled/
+
+# Environment
+.env
+
+# OS files
+Thumbs.db
